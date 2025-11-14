@@ -50,15 +50,15 @@ acc_teams = ["Boston College", "UC Berkeley", "Clemson", "Duke", "Florida State"
              "University of Pittsburgh", "SMU", "Stanford", "Syracuse", "UNC", "UVA",
              "Virginia Tech", "Wake Forest"]
 
-team_images = {"Boston College": "images/bostoncollege.JPG", "UC Berkeley": "images/cal.JPG",
-               "Clemson": "images/clemson.JPG", "Duke": "images/duke.JPG",
-               "Florida State": "images/fsu.JPG", "Georgia Tech": "images/gt.JPG",
-               "Louisville": "images/louisville.JPG", "University of Miami": "images/miami.JPG",
-               "NC State": "images/ncstate.JPG", "Notre Dame": "images/notredame.JPG",
-               "University of Pittsburgh": "images/pitt.JPG", "SMU": "images/smu.JPG",
-               "Stanford": "images/standford.JPG", "Syracuse": "images/syracuse.JPG",
-               "UNC": "images/unc.JPG", "UVA": "images/uva.JPG", "Virginia Tech": "images/vt.JPG",
-               "Wake Forest": "images/wakeforest.JPG"}
+team_images = {"Boston College": "WebDevLab03/images/bostoncollege.JPG", "UC Berkeley": "WebDevLab03/images/cal.JPG",
+               "Clemson": "WebDevLab03/images/clemson.JPG", "Duke": "WebDevLab03/images/duke.JPG",
+               "Florida State": "WebDevLab03/images/fsu.JPG", "Georgia Tech": "WebDevLab03/images/gt.JPG",
+               "Louisville": "WebDevLab03/images/louisville.JPG", "University of Miami": "WebDevLab03/images/miami.JPG",
+               "NC State": "WebDevLab03/images/ncstate.JPG", "Notre Dame": "WebDevLab03/images/notredame.JPG",
+               "University of Pittsburgh": "WebDevLab03/images/pitt.JPG", "SMU": "WebDevLab03/images/smu.JPG",
+               "Stanford": "WebDevLab03/images/standford.JPG", "Syracuse": "WebDevLab03/images/syracuse.JPG",
+               "UNC": "WebDevLab03/images/unc.JPG", "UVA": "WebDevLab03/images/uva.JPG", "Virginia Tech": "WebDevLab03/images/vt.JPG",
+               "Wake Forest": "WebDevLab03/images/wakeforest.JPG"}
                
 
 selected_team = st.selectbox("Choose an ACC Team:", acc_teams)
@@ -125,3 +125,4 @@ if not player_df.empty:
     else:
         st.warning("No player data found for this selection")
     
+
